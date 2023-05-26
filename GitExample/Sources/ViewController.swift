@@ -7,17 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIView {
     
-    private lazy var someView: UIView = {
-        let view = UIView()
-        
-        return view
-    }()
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-    }
 }
 
